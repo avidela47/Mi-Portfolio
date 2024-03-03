@@ -3,7 +3,7 @@
 ### Images of The Portfolio Website:
 
 ![Nextjs Portfolio Website](/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode]()
+![Nextjs Portfolio Website Dark Mode](/website%20images/home-dark-desktop.png)
 ![Next.js Portfolio Website]()
 ![Next js Portfolio Website]()
 ![Portfolio Website In Next.js]()
