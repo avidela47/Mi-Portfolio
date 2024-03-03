@@ -2,7 +2,7 @@
 
 ### Images of The Portfolio Website:
 
-![Nextjs Portfolio Website](../../public/images/projects/miportfolio.png)
+![Nextjs Portfolio Website](https://github.com/avidela47/Mi-Portfolio/blob/main/website%20images/home-light-desktop.png)
 ![Nextjs Portfolio Website Dark Mode]()
 ![Next.js Portfolio Website]()
 ![Next js Portfolio Website]()
