@@ -11,9 +11,6 @@
 ![Responsive Portfolio Website In Next js]()
 ![Mobile Responsive Portfolio Website In Next.js]()
 
-### Resources Used in This Project
-
-
 ### External Libraries used in this project:
 
 - [framer-motion](https://www.framer.com/motion/) <br />
