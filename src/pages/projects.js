@@ -161,7 +161,7 @@ const projects = () => {
                 title="Birmg Hamburger"
                 img={project4}
                 sumary="Sitio web realizado HTML, CSS y JavaScript."
-                link="https://avidela47.github.io/birmghamburgervidela/"
+                link="https://birmghamburger.vercel.app/"
                 github="https://github.com/avidela47/birmghamburgervidela"
                 type="Proyecto destacado"
               />
@@ -181,7 +181,7 @@ const projects = () => {
                 title="Cafe Normandia"
                 img={project6}
                 sumary="Sitio web realizado HTML, CSS y JavaScript."
-                link="/"
+                link="https://normandiacafe.vercel.app/"
                 github="https://github.com/avidela47/NormandiaCafeVidela"
                 type="Proyecto 6"
               />

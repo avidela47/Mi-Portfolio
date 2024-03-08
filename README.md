@@ -5,11 +5,11 @@
 ![Nextjs Portfolio Website](/website%20images/home-light-desktop.png)
 ![Nextjs Portfolio Website Dark Mode](/website%20images/home-dark-desktop.png)
 ![Next.js Portfolio Website](/website%20images/home-dark-mobile-full.png)
-![Next js Portfolio Website]()
-![Portfolio Website In Next.js]()
-![Responsive Portfolio Website In Nextjs]()
-![Responsive Portfolio Website In Next js]()
-![Mobile Responsive Portfolio Website In Next.js]()
+![Next js Portfolio Website](/website%20images/about-light-desktop.png)
+![Portfolio Website In Next.js](/website%20images/about-light-mobile.png)
+![Responsive Portfolio Website In Nextjs](/website%20images/projects-dark-desktop.png)
+![Responsive Portfolio Website In Next js](/website%20images/projects-light-mobile.png)
+![Mobile Responsive Portfolio Website In Next.js](/website%20images/articles-light-desktop.png)
 
 ### External Libraries used in this project:
 
