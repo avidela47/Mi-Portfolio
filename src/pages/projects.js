@@ -131,7 +131,7 @@ const projects = () => {
                 title="Mi Portfolio"
                 img={project1}
                 sumary="Sitio web realizado con Nextjs, Tailwind CSS y Framer-motion"
-                link="#"
+                link="https://ariel-videla-portfolio.vercel.app/"
                 github="https://github.com/avidela47/Mi-Portfolio"
                 type="Proyecto destacado"
               />
