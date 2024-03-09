@@ -16,7 +16,7 @@ const education = () => {
         <Layout className="pt-16">
           <AnimatedText text="FullStack Developer" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-8 md:order-2 md:col-span-3">
+            <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-8 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
               Datos Académicos
               </h2>
@@ -24,7 +24,7 @@ const education = () => {
             </div>
           </div>
           <div className="grid w-full grid-cols-8 gap-16 mt-12 sm:gap-8">
-            <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-8 md:order-3 md:col-span-2">
+            <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-8 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
               Certificaciones
               </h2>

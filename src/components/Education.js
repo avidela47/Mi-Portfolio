@@ -7,7 +7,7 @@ const Details = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-2 w-full mx-auto flex flex-col items-center justify-between"
+      className="my-8 first:mt-0 last:mb-2 w-full mx-auto flex flex-col items-center justify-between md:w-[100%]"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -15,13 +15,13 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="font-bold dark:text-light">
+        <h3 className="font-bold dark:text-light sm:text-xl xs:text-lg">
           {type}
         </h3>
-        <span className="font-medium text-dark/75 dark:text-primary">
+        <span className="font-medium text-dark/75 dark:text-primary xs:text-sm">
           {time} | {place}
         </span>
-        <p className="font-medium w-full dark:text-light">{info}</p>
+        <p className="font-medium w-full dark:text-light md:text-sm">{info}</p>
       </motion.div>
     </li>
   );
@@ -35,12 +35,15 @@ const Education = () => {
   });
   return (
     <div className="my-34">
-      <div ref={ref} className="w-[75%] mx-auto relative">
+      <div
+        ref={ref}
+        className="w-[75%] mx-auto relative lg:w-[90%] md:w-full xs:w-full"
+      >
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[0px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-[75px]">
+        <ul className="w-full flex flex-col items-start justify-between ml-[75px] xs:ml-2">
           <Details
             type="DESARROLLO FULL STACK"
             time="Febrero 2022 - Diciembre 2023"
@@ -68,7 +71,6 @@ const Education = () => {
             place="Universidad de la Marina Mercante"
             info="Análisis Económico y Financiero, Manejo de Divisas y Logística, Normas Aduaneras y Tránsito de Mercancía, Marketing Internacional, Normas Jurídicas, Procesos Administrativos, Comercio Electrónico y Tecnología."
           />
-          
         </ul>
       </div>
     </div>

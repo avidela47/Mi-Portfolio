@@ -18,7 +18,7 @@ const Details = ({ position, company, time, address, work }) => {
         <h3 className="font-bold dark:text-light sm:text-xl xs:text-lg">
           {position}&nbsp;<p className="text-primary">{company}</p>
         </h3>
-        <span className="font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        <span className="font-medium text-dark/75 dark:text-primary/75 xs:text-sm">
           {time} | {address}
         </span>
         <p className="font-medium w-full md:text-sm">{work}</p>
@@ -35,7 +35,10 @@ const Experience = () => {
   });
   return (
     <div className="my-34">
-      <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full xs:w-full">
+      <div
+        ref={ref}
+        className="w-[75%] mx-auto relative lg:w-[90%] md:w-full xs:w-full"
+      >
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[0px]"

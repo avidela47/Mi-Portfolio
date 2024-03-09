@@ -16,7 +16,7 @@ const Details = ({ type, place }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-2 w[60%] mx-auto flex flex-col items-center justify-between"
+      className="my-8 first:mt-0 last:mb-2 w[60%] mx-auto flex flex-col items-center justify-between md:w-[100%]"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -24,8 +24,10 @@ const Details = ({ type, place }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="font-bold dark:text-light">{type}</h3>
-        <span className="font-medium text-dark/75 dark:text-light/75">
+        <h3 className="font-bold dark:text-light sm:text-xl xs:text-lg">
+          {type}
+        </h3>
+        <span className="font-medium text-dark/75 dark:text-primary/75 xs:text-sm">
           {place}
         </span>
       </motion.div>
@@ -41,12 +43,15 @@ const Certification = () => {
   });
   return (
     <div className="my-34">
-      <div ref={ref} className="w-[75%] mx-auto relative">
+      <div
+        ref={ref}
+        className="w-[75%] mx-auto relative lg:w-[90%] md:w-full xs:w-full"
+      >
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[0px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-[75px]">
+        <ul className="w-full flex flex-col items-start justify-between ml-[75px] xs:ml-2">
           <Details
             type="DESARROLLO FULL STACK"
             place="CoderHouse - Caba - Argentina"
