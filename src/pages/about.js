@@ -112,7 +112,7 @@ const about = () => {
           </div>
           <Skills />
           <div className="grid w-full grid-cols-8 gap-16 my-20 sm:gap-8">
-            <div className="col-span-12 flex flex-col items-start justify-start">
+            <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-12 md:order-3 md:col-span-3 xs:col-span-9 xs:ml-4">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Experiencia laboral
               </h2>
