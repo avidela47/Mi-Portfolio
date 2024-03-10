@@ -2,6 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Certification from "@/components/Certification";
 import Education from "@/components/Education";
 import Layout from "@/components/Layout";
+import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
 import React from "react";
 
@@ -12,6 +13,7 @@ const education = () => {
         <title>Ariel Developer | Educación</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="FullStack Developer" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />

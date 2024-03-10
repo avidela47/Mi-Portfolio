@@ -11,6 +11,7 @@ import project3 from "../../public/images/projects/valhallawine.png";
 import project4 from "../../public/images/projects/birmghamburger.png";
 import project5 from "../../public/images/projects/selflick.png";
 import project6 from "../../public/images/projects/cafenormandia.png";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, sumary, img, link, github }) => {
   return (
@@ -119,6 +120,7 @@ const projects = () => {
         <title>Ariel Developer | Proyectos</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
