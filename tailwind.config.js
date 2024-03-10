@@ -17,6 +17,9 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
+        lila: "#9C27B0",
+        lila2:"#3F51B5",
+        gris:"#00897B"
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
