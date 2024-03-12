@@ -11,6 +11,9 @@ import project3 from "../../public/images/projects/valhallawine.png";
 import project4 from "../../public/images/projects/birmghamburger.png";
 import project5 from "../../public/images/projects/selflick.png";
 import project6 from "../../public/images/projects/cafenormandia.png";
+import project7 from "../../public/images/projects/diabolo.jpeg";
+import project8 from "../../public/images/projects/horus.jpeg";
+import project9 from "../../public/images/projects/reproductor.jpeg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, sumary, img, link, github }) => {
@@ -129,63 +132,95 @@ const projects = () => {
           />
           <div className="grid grid-col-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
-              <FeaturedProject
-                title="Mi Portfolio"
-                img={project1}
-                sumary="Sitio web realizado con Nextjs, Tailwind CSS y Framer-motion"
-                link="https://ariel-videla-portfolio.vercel.app/"
-                github="https://github.com/avidela47/Mi-Portfolio"
-                type="Proyecto destacado"
+            <FeaturedProject
+                title="Birmg Hamburger"
+                img={project4}
+                sumary="Sitio web realizado HTML, CSS y JavaScript"
+                link="https://birmghamburger.vercel.app/"
+                github="https://github.com/avidela47/birmghamburgervidela"
+                type="Trabajo final curso Javascript"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Sabores Argentinos"
                 img={project2}
-                sumary="Sitio web realizado HTML, CSS y JavaScript."
+                sumary="Sitio web realizado HTML, CSS y JavaScript"
                 link="https://avidela47.github.io/saboresargentinos/"
                 github="https://github.com/avidela47/saboresargentinos"
-                type="Proyecto 2"
+                type="Proyecto Freelance"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Valhalla Wines & Beers"
                 img={project3}
-                sumary="Sitio web realizado HTML, CSS y JavaScript."
+                sumary="Sitio web realizado HTML, CSS y JavaScript"
                 link="https://avidela47.github.io/valhallawinesvidela/"
                 github="https://github.com/avidela47/valhallawinesvidela"
-                type="Proyecto 3"
+                type="Trabajo final curso desarrolo Web"
               />
             </div>
             <div className="col-span-12">
-              <FeaturedProject
-                title="Birmg Hamburger"
-                img={project4}
-                sumary="Sitio web realizado HTML, CSS y JavaScript."
-                link="https://birmghamburger.vercel.app/"
-                github="https://github.com/avidela47/birmghamburgervidela"
-                type="Proyecto destacado"
+            <FeaturedProject
+                title="Mi Portfolio"
+                img={project1}
+                sumary="Sitio web realizado con Nextjs, Tailwind CSS y Framer-motion"
+                link="https://ariel-videla-portfolio.vercel.app/"
+                github="https://github.com/avidela47/Mi-Portfolio"
+                type="Proyecto Freelance"
               />
+              
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Selflick soluciones graficas"
                 img={project5}
-                sumary="Sitio web realizado HTML, CSS y JavaScript."
+                sumary="Sitio web realizado HTML, CSS y JavaScript"
                 link="https://avidela47.github.io/selflick/"
                 github="https://github.com/avidela47/selflick"
-                type="Proyecto 5"
+                type="Proyecto Freelance"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Cafe Normandia"
                 img={project6}
-                sumary="Sitio web realizado HTML, CSS y JavaScript."
+                sumary="Sitio web realizado MERN: MongoDB, Express, React y Node"
                 link="https://normandiacafe.vercel.app/"
                 github="https://github.com/avidela47/NormandiaCafeVidela"
-                type="Proyecto 6"
+                type="Trabajo final curso ReactJs"
+              />
+            </div>
+            <div className="col-span-12">
+            <FeaturedProject
+                title="Diabolo Drinks"
+                img={project7}
+                sumary="Sitio web realizado MongoDB, Express, Vite, Tailwind y Node"
+                link="#"
+                github="https://github.com/avidela47/Diabolo-Drinks"
+                type="Proyecto Freelance"
+              />
+              
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Horus Santeria"
+                img={project8}
+                sumary="Sitio web realizado MERN: MongoDB, Express, React y Node"
+                link="#"
+                github="https://github.com/avidela47/Horus-Santeria"
+                type="Proyecto final Backend"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Reproductor de Musica"
+                img={project9}
+                sumary="Sitio web realizado HTML, CSS y JavaScript"
+                link="#"
+                github="https://github.com/avidela47/reproductorDeMusica"
+                type="Proyecto Freelance"
               />
             </div>
           </div>
